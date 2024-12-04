@@ -1,0 +1,40 @@
+.box{
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;  
+    
+
+}
+.box1{
+    background-color: red;
+
+}
+.box2{
+    background-color: rgb(132, 197, 26);
+}
+.box3{
+    background-color: rgb(23, 51, 175);
+}
+.box4{
+    background-color: rgb(250, 7, 173);
+}
+
+
+.container{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    
+    /* height: 250px; */
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.grow1{
+    flex-grow: 1;
+}
